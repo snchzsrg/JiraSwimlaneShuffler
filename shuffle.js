@@ -5,7 +5,7 @@
  * Copyright (c) 2018 Sergio Sanchez, snchz.srg@gmail.com
  */
 
-var divs = document.getElementsByClassName("shufflable");
+var divs = document.getElementsByClassName("ghx-swimlane");
 
 var index, randomIndex;
 var temp;

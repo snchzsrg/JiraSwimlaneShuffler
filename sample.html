@@ -1,53 +1,22 @@
 <!doctype html>
 <html>
 
-<head>
-    <title>Sample Page to Shuffle</title>
-</head>
-
-<style type="text/css">
-    body {
-        margin: 10px;
-        white-space: nowrap;
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    div {
-        display: block;
-    }
-</style>
-
-<script>
-    function shuffleText() {
-        var divs = document.getElementsByClassName("shufflable");
-
-        var index, randomIndex;
-        var temp;
-        for (index = divs.length - 1; index >= 0; index--) {
-            randomIndex = Math.floor(Math.random() * (index + 1));
-            temp = divs[index].innerHTML;
-            divs[index].innerHTML = divs[randomIndex].innerHTML;
-            divs[randomIndex].innerHTML = temp;
-        }
-    }
-</script>
-
 <body>
-    <button onclick="shuffleText()">SHUFFLE!</button>
-    <div class="shufflable">
+    <div class="ghx-swimlane ghx-closed" swimlane-id="3">
         <p>Sample Text #1</p>
+        <div>Div Example 1</div>
     </div>
-    <div class="shufflable">
+    <div class="ghx-swimlane ghx-closed" swimlane-id="2">
         <p>Sample Text #2</p>
+        <div>Div Example 2</div>
     </div>
-    <div class="shufflable">
+    <div class="ghx-swimlane" swimlane-id="7">
         <p>Sample Text #3</p>
+        <div>Div Example 3</div>
     </div>
-    <div class="shufflable">
+    <div class="ghx-swimlane" swimlane-id="5">
         <p>Sample Text #4</p>
+        <div>Div Example 4</div>
     </div>
 </body>
 
