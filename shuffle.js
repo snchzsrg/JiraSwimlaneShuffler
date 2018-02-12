@@ -1,5 +1,5 @@
 /**
- * Jira Assignee Shuffler
+ * Jira Swimlane Shuffler
  * 
  * MIT License
  * Copyright (c) 2018 Sergio Sanchez, snchz.srg@gmail.com
