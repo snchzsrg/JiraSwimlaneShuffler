@@ -20,17 +20,34 @@
     }
 </style>
 
+<script>
+    function shuffleText() {
+        var divs = document.getElementsByClassName("shufflable");
+
+        var index, randomIndex;
+        var temp;
+        for(index=divs.length-1; index >= 0; index--)
+        {
+            randomIndex = Math.floor(Math.random() * (index + 1));
+            temp = divs[index].innerHTML;
+            divs[index].innerHTML = divs[randomIndex].innerHTML;
+            divs[randomIndex].innerHTML = temp;
+        }
+    }
+</script>
+
 <body>
-    <div>
+    <button onclick="shuffleText()">SHUFFLE!</button>
+    <div class="shufflable">
         <p>Sample Text #1</p>
     </div>
-    <div>
+    <div class="shufflable">
         <p>Sample Text #2</p>
     </div>
-    <div>
+    <div class="shufflable">
         <p>Sample Text #3</p>
     </div>
-    <div>
+    <div class="shufflable">
         <p>Sample Text #4</p>
     </div>
 </body>
