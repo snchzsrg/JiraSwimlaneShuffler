@@ -1,3 +1,10 @@
+/**
+ * Jira Assignee Shuffler
+ * 
+ * MIT License
+ * Copyright (c) 2018 Sergio Sanchez, snchz.srg@gmail.com
+ */
+
 var divs = document.getElementsByClassName("shufflable");
 
 var index, randomIndex;
