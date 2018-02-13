@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Jira Swimlane Shuffler",
-  "description": "This extension shuffles the assignee swimlanes on a Jira scrum board.",
+  "description": "Shuffle the order of assignee swimlanes on an active Jira sprint/Kanban board.",
   "version": "1.0",
   "background": {
     "scripts": [
