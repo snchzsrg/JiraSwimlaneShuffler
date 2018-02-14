@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Jira Swimlane Shuffler",
   "description": "Shuffle the order of assignee swimlanes on an active Jira sprint/Kanban board.",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "scripts": [
       "popup.js"
